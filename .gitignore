@@ -1,0 +1,36 @@
+# Build artifacts
+*.o
+*.out
+*.exe
+a.out
+build/
+
+# CUDA generated
+*.ptx
+*.cubin
+*.cubin.fatbin
+*.module_id
+
+# Nsight Compute profiles
+*.ncu-rep
+*.ncu-rep.zip
+profile_*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
